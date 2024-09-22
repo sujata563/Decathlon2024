@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRUM-84] Excel printer class is not integrated with main program</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://utb-team-tgfis81p.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-32">3.1.2: The ExcelPrinter class shall handle the creation and formatting of the Excel file.</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-32">SCRUM-32</a>)</span>
+                <h3 class="formtitle"><img src="https://utb-team-tgfis81p.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SCRUM-84]&nbsp;<a href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-84">Excel printer class is not integrated with main program</a>
+            <span class="subText">
+               Created: 11/Sep/24                   &nbsp;Updated: 19/Sep/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Bugs</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://utb-team-tgfis81p.atlassian.net/secure/BrowseProject.jspa?id=10000">Score calculator</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-32">3.1.2: The ExcelPrinter class shall handle the creation and formatting of the Excel file.</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ae7ee98a-0a7c-4db2-818d-507efed99eae"
+                id="word_reporter_712020:ae7ee98a-0a7c-4db2-818d-507efed99eae"
+                href="https://utb-team-tgfis81p.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aae7ee98a-0a7c-4db2-818d-507efed99eae">
+                    Sujata chandra
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:ae7ee98a-0a7c-4db2-818d-507efed99eae"
+                id="word_assignee_712020:ae7ee98a-0a7c-4db2-818d-507efed99eae"
+                href="https://utb-team-tgfis81p.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aae7ee98a-0a7c-4db2-818d-507efed99eae">
+                    Sujata chandra
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10114-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>MacOS, IntelliJ</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-56">
+                     SCRUM-56                 </a>
+            </td>
+            <td>
+                Ensure that the ExcelPrinter class ha...
+            </td>
+            <td>
+                ON HOLD / BLOCKED
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10114-value" class="value" bgcolor="#ffffff" width="80%">      0|i000c6:hzlr
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10114-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>System Components:</b></td>
+                <td id="customfield_10042-10114-value" class="value" bgcolor="#ffffff" width="80%">    Code
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Consequence:</b></td>
+                <td id="customfield_10043-10114-value" class="value" bgcolor="#ffffff" width="80%">    Task Unachievable
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Frequency:</b></td>
+                <td id="customfield_10044-10114-value" class="value" bgcolor="#ffffff" width="80%">    Frequent för All
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ol>
+	<li>Open Decathalon 2024 in IntelliJ</li>
+	<li>Navigate to the ExcelPrinter Class</li>
+	<li>Right click on the class name and look for “usage”</li>
+</ol>
+
+
+
+
+
+
+<p><b>Expected</b> : </p>
+
+<p>                Excel Printer class integrated with main program</p>
+
+<p><b>Actual</b> : </p>
+
+<p>              It shows Excel Printer has “no usage” with main program</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Sun Sep 22 06:15:59 UTC 2024 by Sujata chandra using Jira 1001.0.0-SNAPSHOT#100266-rev:313febe2d9b34506d87f821d5c9dc14238e70f13.
+
+</body>
+</html>
