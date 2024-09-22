@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRUM-47] Confirm Input Fields for Competitor Names and Results</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://utb-team-tgfis81p.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-34">3.1.4: The system shall ensure that data in the Excel file is correctly aligned and formatted for readability.</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-34">SCRUM-34</a>)</span>
+                <h3 class="formtitle"><img src="https://utb-team-tgfis81p.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SCRUM-47]&nbsp;<a href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-47">Confirm Input Fields for Competitor Names and Results</a>
+            <span class="subText">
+               Created: 04/Sep/24                   &nbsp;Updated: 11/Sep/24
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://utb-team-tgfis81p.atlassian.net/secure/BrowseProject.jspa?id=10000">Score calculator</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://utb-team-tgfis81p.atlassian.net/browse/SCRUM-34">3.1.4: The system shall ensure that data in the Excel file is correctly aligned and formatted for readability.</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:85c6fe1d-f19c-4aea-96c3-2e5d0cdcbe0d"
+                id="word_reporter_712020:85c6fe1d-f19c-4aea-96c3-2e5d0cdcbe0d"
+                href="https://utb-team-tgfis81p.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A85c6fe1d-f19c-4aea-96c3-2e5d0cdcbe0d">
+                    Clara Kim-Klingberg
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:6c6d8161-1cfb-498e-8f6a-18c32365eb8a"
+                id="word_assignee_712020:6c6d8161-1cfb-498e-8f6a-18c32365eb8a"
+                href="https://utb-team-tgfis81p.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A6c6d8161-1cfb-498e-8f6a-18c32365eb8a">
+                    simon.bergstrom2
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10046-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10046-value" class="value" bgcolor="#ffffff" width="80%">      0|i000c6:gv
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10046-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria :</b></td>
+                <td id="customfield_10038-10046-value" class="value" bgcolor="#ffffff" width="80%">      <p>Confirm the input fields within the GUI to enter the names and results of competitors. </p>
+
+<ul>
+	<li>Ensure that each competitor has a dedicated text field for name input</li>
+	<li>Each competitor has a dedicated field for result input</li>
+	<li>The input fields accept and display alphanumeric characters</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+
+Generated at Sun Sep 22 06:08:44 UTC 2024 by Sujata chandra using Jira 1001.0.0-SNAPSHOT#100266-rev:313febe2d9b34506d87f821d5c9dc14238e70f13.
+
+</body>
+</html>
